@@ -11,6 +11,7 @@ setup(name='MODELAIS',
       keywords='macrocomplex interaction bioinformatics structural pdb',
       url='https://github.com/ioyarzun/Modelais',
       author='Socayna Jouide, Ariadna Net, Iñigo Oyarzun',
+      packages=['modelais'],
       author_email='socayna.jouide01@estudiant.upf.edu, ariadna.net01@estudiant.upf.edu, inigo.oyarzun01@estudiant.upf.edu',
       install_requires=['biopython', 'gooey', 'matplotlib', 'pandas', 'modeller'],
       include_package_data=True)
